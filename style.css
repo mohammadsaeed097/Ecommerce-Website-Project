@@ -340,12 +340,14 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
+    width: 30%;
     min-width: 580px;
     height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
     transition: 0.3s ease;
+    margin-bottom: 2rem;
 }
 
 #sm-banner .banner-box2 {
@@ -378,6 +380,49 @@ body {
 
 #sm-banner .banner-box:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    width: 31%;
+    min-width: 30px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url("img/banner/b4.jpg");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("img/banner/b18.jpg");
 }
 
 /* Shop Page  */
