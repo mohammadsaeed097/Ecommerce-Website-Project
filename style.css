@@ -340,14 +340,14 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    width: 30%;
+    width: 49%;
     min-width: 580px;
     height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
     transition: 0.3s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 #sm-banner .banner-box2 {
@@ -397,7 +397,7 @@ body {
     background-image: url("img/banner/b7.jpg");
     width: 31%;
     min-width: 30px;
-    height: 30vh;
+    height: 26vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -474,6 +474,69 @@ body {
     border-radius: 0 4px 4px 0;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow a i {
+    font-size: 16px;
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover, 
+footer .col a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
 /* Shop Page  */
 
 
