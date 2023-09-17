@@ -739,6 +739,43 @@ footer .copyright {
 
 /* About Page  */
 
+#page-header.about-header {
+    background-image: url('img/about/banner.png');
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+#about-head div {
+    padding-left: 40px;
+}
+
+#about-head marquee {
+    padding: 10px 0;
+    border: 1px solid #088178;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#about-app {
+    text-align: center;
+}
+
+#about-app video {
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 
 /* Cart Page */
 
@@ -959,6 +996,34 @@ footer .copyright {
         width: 100%;
     }
     
+    /* About Page */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    #about-head div {
+        padding-left: 0;
+        margin: 30px 15px;
+    }
+
+    #about-head div h2{
+        font-size: 36px;
+    }
+
+    #about-app .video {
+        margin: 0 10px;
+    }
+
+    #about-app video {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 360px) {
