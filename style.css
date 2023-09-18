@@ -830,6 +830,8 @@ footer .copyright {
 #contact-details .map iframe{
     width: 100%;
     height: 100%;
+    border-radius: 5px;
+
 }
 
 #form-details form{
@@ -845,6 +847,7 @@ footer .copyright {
     margin: 30px;
     padding: 80px;
     border: 1px solid #e1e1e1;
+    border-radius: 5px;
 }
 
 #form-details form input,
@@ -854,6 +857,7 @@ footer .copyright {
     outline: none;
     margin-bottom: 20px;
     border: 1px solid #e1e1e1;
+    border-radius: 5px;
 }
 
 #form-details form button {
@@ -912,6 +916,12 @@ footer .copyright {
     #banner3 .banner-box h3 {
         font-size: 14px;
     }
+
+    /* Contact Page */
+    #form-details {
+        padding: 40px;
+    }
+
 }
 
 @media (max-width:860px) {
@@ -1014,6 +1024,27 @@ footer .copyright {
         width: 70%;
     }
     
+    /* Contact Page */
+
+    #form-details {
+        padding: 40px;
+    }
+    
+    #form-details form{
+        width: 50%;
+    }
+
+}
+
+@media (max-width:800px) {
+    #form-details {
+        flex-direction: column;
+    }
+    
+    #form-details form{
+        width: 100%;
+    }
+
 }
 
 @media (max-width:477px) {
@@ -1133,7 +1164,32 @@ footer .copyright {
         width: 100%;
     }
 
+    /* Contact Page */
 
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #contact-details .map {
+        width: 100%;
+    }
+    
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
 }
 
 @media (max-width:360px) {
